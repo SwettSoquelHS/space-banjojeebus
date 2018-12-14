@@ -39,7 +39,7 @@ void setup() {
   for (int i = 0; i < theOddball.length; i++) {
     float x = (float)(700 * Math.random());
     float y = (float)(-50 * Math.random());
-    float s = 5;
+    float s = 10;
     float a = (float)(5 * Math.random());
 
     theOddball[i] = new Oddball(x, y, s, a);
